@@ -73,52 +73,52 @@ A component bundle contains a component or an app and all its related resources
 <table>
 <tr>
 <td> Application or Component : </td>
-<td>MyApp.app or **myComponent**.cmp : </td>
+<td>MyApp.app or myComponent.cmp : </td>
 <td>The required resource in the component bundle. Each bundle contains only one component or app resource </td>
 </tr>
 
 <tr>
   <td>CSS styles : </td>
-  <td>**myComponent**.css : </td>
+  <td>myComponent.css : </td>
   <td>contains the styles for the component </td>
 </tr>
 
 <tr>
 <td>Controller : </td>
-<td>**myComponent**Controller.js: </td>
+<td>myComponentController.js: </td>
  <td> Client-side controller methods to handle events in the component </td>
  </tr>
 
 
 <tr>
   <td>Helper     : </td>
-  <td> **myComponent**Helper.js </td>
-  <td>: contains functions that can be called from any </td>
-  <td>JS code in the component's bundle </td>
+  <td> myComponentHelper.js </td>
+  <td>: contains functions that can be called from any 
+  JS code in the component's bundle </td>
 </tr>
 
 <tr>
 <td>Design     : </td>
-<td>**myComponent**.design: </td>
+<td>myComponent.design: </td>
 <td>Files required for the components used in App Builder, LX pages or Community Builder </td>
 </tr>
 
 <tr>
 <td>Documentation: </td>
-<td> **myComponent**.auradoc : </td>
+<td> myComponent.auradoc : </td>
 <td>description, sample code to provide example of using this the component </td>
 <td>
 </tr>
 
 <tr>
 <td>Renderer: </td>
-<td> **myComponent**Render.js : </td>
+<td> myComponentRender.js : </td>
 <td>Client-side renderer to override default rendering for a component
 </td></tr>
 
 <tr>
 <td>SVG file:
-</td><td>**myComponent**.svg:
+</td><td>myComponent.svg:
 </td><td>Custom Icon for component used in the App Builder or Community Builder
 </td>
 </tr>
