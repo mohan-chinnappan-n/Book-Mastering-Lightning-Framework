@@ -45,7 +45,7 @@ Invalids:
 
  <tr>
    <td>Component used in markup	</td>
-   <td><c:myComponent </td>
+   <td> <pre>c:myComponent</pre> </td>
    <td><pre> namespace:myComponent </pre></td>
  </tr>
 
