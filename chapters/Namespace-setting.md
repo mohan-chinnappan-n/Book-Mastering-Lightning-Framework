@@ -55,11 +55,11 @@ Click on [Edit] to read the documentation about setting namespace
 
 Click on [Edit] to to enter your namespace prefix and check for availability:
 
-![Setup > Packages ](../img/namespace/namespace-4.png)
+![Setup > Packages ](../img/namespace/namespace-5.png)
 
  Click on [Reveiew My Selections]:
 
-![Setup > Packages ](../img/namespace/namespace-5.png)
+![Setup > Packages ](../img/namespace/namespace-4.png)
 
 ### References
 
