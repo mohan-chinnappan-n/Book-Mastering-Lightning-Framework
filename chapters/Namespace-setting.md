@@ -47,9 +47,6 @@ Setup > Packages :
 
 Click on [Edit] to read the documentation about setting namespace
 
-![Setup > Packages > Edit ](../img/namespace/namespace-2.png)
-
-
 
 ![Setup > Packages ](../img/namespace/namespace-3.png)
 
