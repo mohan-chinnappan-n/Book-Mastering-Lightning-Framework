@@ -126,3 +126,38 @@ A component bundle contains a component or an app and all its related resources
 
 
 All resources in the component bundle follow the naming convention and are auto-wired. For example, a controller <componentName>Controller.js is auto-wired to its component, which means that you can use the controller within the scope of that component. In above example: componentName = myComponent
+
+### Component IDs
+
+
+A component has two types of IDs:
+  - a local ID
+  - a global ID.
+
+#### Local ID
+  You can retrieve a component using its local ID in your JavaScript code. It is only scoped to the component. Create by using the aura:id
+  Exmple:
+  ```xml
+  <lightning:button aura:id="helpBtn" label="Help"/>
+  ```
+
+  Finder: In client-side controller :
+  ```js
+   var result = component.find('helpBtn');
+   // component is reference to a the component containing this button
+
+   // result will be this button if it aura:id was unique
+   // if aura:id is not unique, result will contain array of components matching this id
+   // returns undefined if there is no matching local-id
+  ```
+
+#### Global ID
+A global ID can be useful to differentiate between multiple instances of a component or for debugging purposes.
+
+Every component has a unique global-Id, which is the generated runtime-unique ID of the component instance.
+
+A global-id is not guaranteed to be the same beyond the lifetime of a component, so it should never be relied on.
+
+A global-id can be useful to differentiate between multiple instances of a same component for debugging purposes.
+
+![Global-id example](https://developer.salesforce.com/docs/resources/img/en-us/210.0?doc_id=dev_guides%2Faura%2Fimages%2FglobalID.png&folder=lightning)
