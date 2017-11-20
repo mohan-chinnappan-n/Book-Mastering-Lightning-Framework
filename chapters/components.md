@@ -40,13 +40,17 @@ Invalids:
  <tr>
    <th>Referenced Item</th>
    <th>With Default Namespace</th>
-   <th>ith Org Namespace</th>
+   <th>With Org Namespace</th>
  </tr>
 
  <tr>
    <td>Referenced Item</td>
-   <td>With Default Namespace</td>
-   <td>ith Org Namespace</td>
+   <td> ```xml
+        <c:myComponent />
+        ```
+        </td>
+   <td><namespace:myComponent />
+</td>
  </tr>
 
 </table>
