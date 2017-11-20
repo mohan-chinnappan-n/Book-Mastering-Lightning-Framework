@@ -92,8 +92,8 @@ A component bundle contains a component or an app and all its related resources
 
 <tr>
   <td>Helper     : </td>
-  <td> myComponentHelper.js </td>
-  <td>: contains functions that can be called from any 
+  <td> myComponentHelper.js: </td>
+  <td> contains functions that can be called from any
   JS code in the component's bundle </td>
 </tr>
 
