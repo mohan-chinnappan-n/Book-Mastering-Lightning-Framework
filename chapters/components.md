@@ -71,22 +71,30 @@ Invalids:
 A component bundle contains a component or an app and all its related resources
 
 
-Application or Component : MyApp.app or **myComponent**.cmp : The required resource in the component bundle. Each bundle contains only one component or app resource
+Application or Component : MyApp.app or **myComponent**.cmp :
+ The required resource in the component bundle. Each bundle contains only one component or app resource
 
-CSS styles : **myComponent**.css : contains the styles for the component
+CSS styles : **myComponent**.css :
+contains the styles for the component
 
-Controller : **myComponent**Controller.js:  Client-side controller methods to handle events in the component
+Controller : **myComponent**Controller.js:
+ Client-side controller methods to handle events in the component
 
-Helper     : **myComponent**Helper.js : contains functions that can be called from any
+Helper     : **myComponent**Helper.js
+: contains functions that can be called from any
 JS code in the component's bundle
 
-Design     : **myComponent**.design: Files required for the components used in App Builder, LX pages or Community Builder
+Design     : **myComponent**.design:
+Files required for the components used in App Builder, LX pages or Community Builder
 
-Documentation: **myComponent**.auradoc : description, sample code to provide example of using this the component
+Documentation: **myComponent**.auradoc :
+description, sample code to provide example of using this the component
 
-Renderer: **myComponent**Render.js : Client-side renderer to override default rendering for a component
+Renderer: **myComponent**Render.js :
+Client-side renderer to override default rendering for a component
 
-SVG file: **myComponent**.svg: Custom Icon for component used in the App Builder or Community Builder
+SVG file: **myComponent**.svg:
+Custom Icon for component used in the App Builder or Community Builder
 
 ------
 All resources in the component bundle follow the naming convention and are auto-wired. For example, a controller <componentName>Controller.js is auto-wired to its component, which means that you can use the controller within the scope of that component. In above example: componentName = myComponent
