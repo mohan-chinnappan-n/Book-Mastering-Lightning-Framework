@@ -170,6 +170,8 @@ To create a unique ID for an HTML element, you can use the globalId as a prefix 
 
 ```
 ```js
+
+// getting global-id of the component in JavaScript
 var globalId = cmp.getGlobalId();
 
 ```
