@@ -41,11 +41,24 @@ A namespace prefix:
 
 
 ### Example:
+Setup > Packages :
 
 ![Setup > Packages ](../img/namespace/namespace-1.png)
-![Setup > Packages ](../img/namespace/namespace-2.png)
+
+Click on [Edit] to read the documentation about setting namespace
+
+![Setup > Packages > Edit ](../img/namespace/namespace-2.png)
+
+
+
 ![Setup > Packages ](../img/namespace/namespace-3.png)
+
+Click on [Edit] to to enter your namespace prefix and check for availability:
+
 ![Setup > Packages ](../img/namespace/namespace-4.png)
+
+ Click on [Reveiew My Selections]:
+
 ![Setup > Packages ](../img/namespace/namespace-5.png)
 
 ### References
