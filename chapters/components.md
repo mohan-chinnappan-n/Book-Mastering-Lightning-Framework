@@ -45,12 +45,8 @@ Invalids:
 
  <tr>
    <td>Referenced Item</td>
-   <td> ```xml
-        <c:myComponent />
-        ```
-        </td>
-   <td><namespace:myComponent />
-</td>
+   <td><pre> <c:myComponent /></pre> </td>
+   <td><pre> <namespace:myComponent /></pre> </td>
  </tr>
 
 </table>
