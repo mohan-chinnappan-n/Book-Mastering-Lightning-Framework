@@ -123,5 +123,6 @@ A component bundle contains a component or an app and all its related resources
 </td>
 </tr>
 </table>
-------
+
+
 All resources in the component bundle follow the naming convention and are auto-wired. For example, a controller <componentName>Controller.js is auto-wired to its component, which means that you can use the controller within the scope of that component. In above example: componentName = myComponent
