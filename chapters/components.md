@@ -44,9 +44,9 @@ Invalids:
  </tr>
 
  <tr>
-   <td>Referenced Item</td>
-   <td><pre> <c:myComponent /></pre> </td>
-   <td><pre> <namespace:myComponent /></pre> </td>
+   <td>Component used in markup	</td>
+   <td> c:myComponent  </td>
+   <td> namespace:myComponent </td>
  </tr>
 
 </table>
