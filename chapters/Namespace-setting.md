@@ -3,25 +3,33 @@
 
 #### About namespace
 
-Namespace:
-
 Every component is part of a namespace.
 This is used to group related components together
 
-Default namespace is 'c' 
-Example: <c:adder/>
 
-Referring:
+**Default** namespace is 'c'
+Example:
+```xml
+   <c:adder/>
+```
+
+**Referring:**
 Another component or application can reference a component
-by adding <myNamespace:myComponent/>
-Example: <mohansun:adder/>
+by adding
+```xml  
+    <myNamespace:myComponent/>
+```
+Example:
+```xml
+    <mohansun:adder/>
+```
 
 LX components from SFDC has namespaces:
  aura
  ui
  force
 
-How to set namespace for your org:
+#### How to set namespace for your org:
 
 A namespace prefix:
     Distinguishes your package and its contents from those of other developers.
@@ -32,12 +40,13 @@ A namespace prefix:
 
 
 
+### Example:
 
-![Setup > Packages ] (./img/namespace/namespace-1.png)
-![Setup > Packages ] (./img/namespace/namespace-2.png)
-![Setup > Packages ] (./img/namespace/namespace-3.png)
-![Setup > Packages ] (./img/namespace/namespace-4.png)
-![Setup > Packages ] (./img/namespace/namespace-5.png)
+![Setup > Packages ](../img/namespace/namespace-1.png)
+![Setup > Packages ](../img/namespace/namespace-2.png)
+![Setup > Packages ](../img/namespace/namespace-3.png)
+![Setup > Packages ](../img/namespace/namespace-4.png)
+![Setup > Packages ](../img/namespace/namespace-5.png)
 
 ### References
 
