@@ -1,4 +1,4 @@
-### How to setup namespace for your org
+## How to setup namespace for your org
 
 
 #### About namespace
@@ -12,6 +12,10 @@ Example:
 ```xml
    <c:adder/>
 ```
+The following items must use the **c** namespace when your organization doesn’t have a namespace prefix set.
+- References to components that you’ve created
+- References to events that you’ve defined
+å
 
 **Referring:**
 Another component or application can reference a component
