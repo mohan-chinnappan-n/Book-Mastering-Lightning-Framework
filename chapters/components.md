@@ -62,3 +62,5 @@ Invalids:
  </tr>
 
 </table>
+
+[More examples](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/namespace_using_reference.htm)
