@@ -34,3 +34,19 @@ Invalids:
 
 
 ```
+
+<table>
+
+ <tr>
+   <th>Referenced Item</th>
+   <th>With Default Namespace</th>
+   <th>ith Org Namespace</th>
+ </tr>
+
+ <tr>
+   <td>Referenced Item</td>
+   <td>With Default Namespace</td>
+   <td>ith Org Namespace</td>
+ </tr>
+
+</table>
