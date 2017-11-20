@@ -70,31 +70,58 @@ Invalids:
 
 A component bundle contains a component or an app and all its related resources
 
+<table>
+<tr>
+<td> Application or Component : </td>
+<td>MyApp.app or **myComponent**.cmp : </td>
+<td>The required resource in the component bundle. Each bundle contains only one component or app resource </td>
+</tr>
 
-Application or Component : MyApp.app or **myComponent**.cmp :
- The required resource in the component bundle. Each bundle contains only one component or app resource
+<tr>
+  <td>CSS styles : </td>
+  <td>**myComponent**.css : </td>
+  <td>contains the styles for the component </td>
+</tr>
 
-CSS styles : **myComponent**.css :
-contains the styles for the component
+<tr>
+<td>Controller : </td>
+<td>**myComponent**Controller.js: </td>
+ <td> Client-side controller methods to handle events in the component </td>
+ </tr>
 
-Controller : **myComponent**Controller.js:
- Client-side controller methods to handle events in the component
 
-Helper     : **myComponent**Helper.js
-: contains functions that can be called from any
-JS code in the component's bundle
+<tr>
+  <td>Helper     : </td>
+  <td> **myComponent**Helper.js </td>
+  <td>: contains functions that can be called from any </td>
+  <td>JS code in the component's bundle </td>
+</tr>
 
-Design     : **myComponent**.design:
-Files required for the components used in App Builder, LX pages or Community Builder
+<tr>
+<td>Design     : </td>
+<td>**myComponent**.design: </td>
+<td>Files required for the components used in App Builder, LX pages or Community Builder </td>
+</tr>
 
-Documentation: **myComponent**.auradoc :
-description, sample code to provide example of using this the component
+<tr>
+<td>Documentation: </td>
+<td> **myComponent**.auradoc : </td>
+<td>description, sample code to provide example of using this the component </td>
+<td>
+</tr>
 
-Renderer: **myComponent**Render.js :
-Client-side renderer to override default rendering for a component
+<tr>
+<td>Renderer: </td>
+<td> **myComponent**Render.js : </td>
+<td>Client-side renderer to override default rendering for a component
+</td></tr>
 
-SVG file: **myComponent**.svg:
-Custom Icon for component used in the App Builder or Community Builder
-
+<tr>
+<td>SVG file:
+</td><td>**myComponent**.svg:
+</td><td>Custom Icon for component used in the App Builder or Community Builder
+</td>
+</tr>
+</table>
 ------
 All resources in the component bundle follow the naming convention and are auto-wired. For example, a controller <componentName>Controller.js is auto-wired to its component, which means that you can use the controller within the scope of that component. In above example: componentName = myComponent
