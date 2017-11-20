@@ -15,6 +15,8 @@ A component name must follow these naming rules:
 #### Example
 
 Note: namespace is the name of your org
+
+
 Valid:
 
 ```xml
