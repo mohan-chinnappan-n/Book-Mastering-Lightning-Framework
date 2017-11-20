@@ -49,4 +49,17 @@ Invalids:
    <td> namespace:myComponent </td>
  </tr>
 
+ <tr>
+   <td>Component used in system attribute	</td>
+   <td> aura:component extends="c:myComponent"
+   <br/>
+   aura:component implements="c:myInterface"
+
+    </td>
+    <td> aura:component extends="namespace:myComponent"
+    <br/>
+    aura:component implements="namespace:myInterface"
+
+ </tr>
+
 </table>
