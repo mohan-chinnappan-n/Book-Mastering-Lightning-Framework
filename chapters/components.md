@@ -46,19 +46,19 @@ Invalids:
  <tr>
    <td>Component used in markup	</td>
    <td><pre> c:myComponent</pre>  </td>
-   <td> namespace:myComponent </td>
+   <td> namespace:myComponent </pre></td>
  </tr>
 
  <tr>
    <td>Component used in system attribute	</td>
-   <td> aura:component extends="c:myComponent" </td>
-    <td> aura:component extends="namespace:myComponent"</td>
+   <td> <pre> aura:component extends="c:myComponent" </pre></td>
+    <td><pre>  aura:component extends="namespace:myComponent"</pre></td>
  </tr>
 
  <tr>
    <td>Component used in system attribute	</td>
-   <td> aura:component implments="c:myInterface" </td>
-    <td> aura:component implments="namespace:myInterface"</td>
+   <td><pre>  aura:component implments="c:myInterface"</pre> </td>
+    <td><pre>  aura:component implments="namespace:myInterface"</pre></td>
  </tr>
 
 </table>
