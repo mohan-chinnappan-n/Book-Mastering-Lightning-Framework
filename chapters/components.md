@@ -18,17 +18,17 @@ Note: namespace is the name of your org
 Valid:
 
 ```xml
-  <namespace:adder/>
+<namespace:adder/>
 ```
 
 Invalids:
 
 ```xml
-  <namespace:adder_/>
+<namespace:adder_/>
 
-  <namespace:adder__int/>
+<namespace:adder__int/>
 
-    <namespace:adder int/>
+<namespace:adder int/>
 
 
 ```
