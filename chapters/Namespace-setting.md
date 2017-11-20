@@ -29,7 +29,7 @@ LX components from SFDC has namespaces:
  ui
  force
 
-#### How to set namespace for your org:
+#### How to set namespace for your org?
 
 A namespace prefix:
     Distinguishes your package and its contents from those of other developers.
@@ -37,6 +37,15 @@ A namespace prefix:
     Ensures your exclusive control of all package components.
     Automatically prepends to all components (custom objects, fields, and others).
     Never changes.
+
+#### Where namespace is used?
+The following items use your organization’s namespace when your organization has a namespace prefix set.
+    - References to components that you’ve created
+    - References to events that you’ve defined
+    - References to custom objects
+    - References to custom fields on standard and custom objects
+    - References to Apex controllers
+    - References to static resources
 
 
 
