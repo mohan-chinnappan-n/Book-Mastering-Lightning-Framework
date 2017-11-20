@@ -161,3 +161,15 @@ A global-id is not guaranteed to be the same beyond the lifetime of a component,
 A global-id can be useful to differentiate between multiple instances of a same component for debugging purposes.
 
 ![Global-id example](https://developer.salesforce.com/docs/resources/img/en-us/210.0?doc_id=dev_guides%2Faura%2Fimages%2FglobalID.png&folder=lightning)
+
+
+To create a unique ID for an HTML element, you can use the globalId as a prefix or suffix for your element.
+
+```xml  
+<div id="{!globalId + '_footer'}"></div>
+
+```
+```js
+var globalId = cmp.getGlobalId();
+
+```
